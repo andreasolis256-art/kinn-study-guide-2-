@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pharmacology Practice Quiz</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>❓ Pharmacology Practice Quiz</h1>
+
+<p>Medical Assistant Exam Review</p>
+
+</header>
+
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="intro.html">Introduction</a>
+
+<a href="math.html">Pharmacology Math</a>
+
+<a href="medication.html">Medication Administration</a>
+
+<a href="quiz.html">Quiz</a>
+
+</nav>
+
+
+
+
+
+<section>
+
+
+<h2>Test Your Knowledge 🩺</h2>
+
+
+<div class="card">
+
+
+<p>
+Choose the best answer for each question.
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>1. What is pharmacology?</h3>
+
+
+<p>
+<input type="radio" name="q1" id="q1a">
+<label for="q1a">The study of diseases only</label>
+</p>
+
+
+<p>
+<input type="radio" name="q1" id="q1b">
+<label for="q1b">The study of drugs and their effects on the body</label>
+</p>
+
+
+<p>
+<input type="radio" name="q1" id="q1c">
+<label for="q1c">The study of anatomy</label>
+</p>
+
+
+<p id="answer1"></p>
+
+
+<button onclick="check1()">Check Answer</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>2. Which is the generic name of a medication?</h3>
+
+
+<p>
+<input type="radio" name="q2" id="q2a">
+<label for="q2a">The manufacturer's brand name</label>
+</p>
+
+
+<p>
+<input type="radio" name="q2" id="q2b">
+<label for="q2b">The official non-brand name</label>
+</p>
+
+
+<p>
+<input type="radio" name="q2" id="q2c">
+<label for="q2c">The chemical formula only</label>
+</p>
+
+
+<p id="answer2"></p>
+
+
+<button onclick="check2()">Check Answer</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>3. What is the dosage formula?</h3>
+
+
+<p>
+<input type="radio" name="q3" id="q3a">
+<label for="q3a">D × H ÷ Q</label>
+</p>
+
+
+<p>
+<input type="radio" name="q3" id="q3b">
+<label for="q3b">D ÷ H × Q</label>
+</p>
+
+
+<p>
+<input type="radio" name="q3" id="q3c">
+<label for="q3c">H ÷ D × X</label>
+</p>
+
+
+<p id="answer3"></p>
+
+
+<button onclick="check3()">Check Answer</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>4. What angle is used for an intramuscular injection?</h3>
+
+
+<p>
+<input type="radio" name="q4" id="q4a">
+<label for="q4a">15 degrees</label>
+</p>
+
+
+<p>
+<input type="radio" name="q4" id="q4b">
+<label for="q4b">45 degrees</label>
+</p>
+
+
+<p>
+<input type="radio" name="q4" id="q4c">
+<label for="q4c">90 degrees</label>
+</p>
+
+
+<p id="answer4"></p>
+
+
+<button onclick="check4()">Check Answer</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>5. Which is one of the rights of medication administration?</h3>
+
+
+<p>
+<input type="radio" name="q5" id="q5a">
+<label for="q5a">Right Patient</label>
+</p>
+
+
+<p>
+<input type="radio" name="q5" id="q5b">
+<label for="q5b">Right Insurance</label>
+</p>
+
+
+<p>
+<input type="radio" name="q5" id="q5c">
+<label for="q5c">Right Room Number</label>
+</p>
+
+
+<p id="answer5"></p>
+
+
+<button onclick="check5()">Check Answer</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>6. Convert 1000 mg to grams.</h3>
+
+
+<p>
+<input type="radio" name="q6" id="q6a">
+<label for="q6a">10 g</label>
+</p>
+
+
+<p>
+<input type="radio" name="q6" id="q6b">
+<label for="q6b">1 g</label>
+</p>
+
+
+<p>
+<input type="radio" name="q6" id="q6c">
+<label for="q6c">100 g</label>
+</p>
+
+
+<p id="answer6"></p>
+
+
+<button onclick="check6()">Check Answer</button>
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<script>
+
+
+function check1(){
+
+document.getElementById("answer1").innerHTML =
+document.getElementById("q1b").checked ?
+"✅ Correct!" :
+"❌ Incorrect. Pharmacology is the study of drugs and their effects.";
+
+}
+
+
+
+function check2(){
+
+document.getElementById("answer2").innerHTML =
+document.getElementById("q2b").checked ?
+"✅ Correct!" :
+"❌ Incorrect. Generic names are official medication names.";
+
+}
+
+
+
+function check3(){
+
+document.getElementById("answer3").innerHTML =
+document.getElementById("q3b").checked ?
+"✅ Correct!" :
+"❌ Incorrect. The formula is D ÷ H × Q.";
+
+}
+
+
+
+function check4(){
+
+document.getElementById("answer4").innerHTML =
+document.getElementById("q4c").checked ?
+"✅ Correct!" :
+"❌ Incorrect. IM injections use a 90° angle.";
+
+}
+
+
+
+function check5(){
+
+document.getElementById("answer5").innerHTML =
+document.getElementById("q5a").checked ?
+"✅ Correct!" :
+"❌ Incorrect. Right Patient is one of the medication rights.";
+
+}
+
+
+
+function check6(){
+
+document.getElementById("answer6").innerHTML =
+document.getElementById("q6b").checked ?
+"✅ Correct!" :
+"❌ Incorrect. 1000 mg equals 1 gram.";
+
+}
+
+
+
+</script>
+
+
+
+
+
+<footer>
+
+<p>Medical Assistant Pharmacology Study Guide</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
