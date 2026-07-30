@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Administering Medication Study Guide</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>💉 Administering Medication</h1>
+
+<p>Medical Assistant Pharmacology Exam Review</p>
+
+</header>
+
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="intro.html">Introduction</a>
+
+<a href="math.html">Pharmacology Math</a>
+
+<a href="medication.html">Medication Administration</a>
+
+<a href="quiz.html">Quiz</a>
+
+</nav>
+
+
+
+
+
+<section>
+
+
+<h2>Introduction to Medication Administration</h2>
+
+
+<div class="card">
+
+
+<p>
+
+Medication administration is the process of safely preparing, giving, and documenting medications for a patient.
+
+</p>
+
+
+<p>
+
+Medical assistants must understand medication safety, proper techniques, and legal responsibilities when assisting with medications.
+
+</p>
+
+
+<h3>Goals of Safe Medication Administration</h3>
+
+
+<ul>
+
+<li>Give the correct medication.</li>
+
+<li>Prevent medication errors.</li>
+
+<li>Protect patient safety.</li>
+
+<li>Educate patients about their medications.</li>
+
+<li>Document accurately.</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+<h2>Medication Orders</h2>
+
+
+<div class="card">
+
+
+<p>
+
+A medication order is a written or electronic instruction from an authorized healthcare provider that allows medication to be administered.
+
+</p>
+
+
+
+<h3>Parts of a Medication Order</h3>
+
+
+<ul>
+
+
+<li><strong>Patient name:</strong> Identifies who receives the medication.</li>
+
+
+<li><strong>Date and time:</strong> Shows when the order was written.</li>
+
+
+<li><strong>Medication name:</strong> Identifies the drug.</li>
+
+
+<li><strong>Dose:</strong> Amount of medication to administer.</li>
+
+
+<li><strong>Route:</strong> How the medication enters the body.</li>
+
+
+<li><strong>Frequency:</strong> How often medication is given.</li>
+
+
+<li><strong>Provider signature:</strong> Authorizes the order.</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+<h2>Medication Labels</h2>
+
+
+<div class="card">
+
+
+<p>
+
+Before administering medication, always compare the medication label with the provider's order.
+
+</p>
+
+
+<h3>Check the Label Three Times</h3>
+
+
+<ol>
+
+
+<li>When removing medication from storage.</li>
+
+
+<li>When preparing the medication.</li>
+
+
+<li>Before returning or administering the medication.</li>
+
+
+</ol>
+
+
+
+<h3>Check the Label For:</h3>
+
+
+<ul>
+
+
+<li>Medication name</li>
+
+<li>Strength</li>
+
+<li>Dose</li>
+
+<li>Expiration date</li>
+
+<li>Route</li>
+
+<li>Patient instructions</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+<h2>Forms of Medication</h2>
+
+
+<div class="card">
+
+
+<table>
+
+
+<tr>
+
+<th>Form</th>
+
+<th>Description</th>
+
+</tr>
+
+
+
+<tr>
+
+<td>Tablet</td>
+
+<td>Solid medication taken orally.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>Capsule</td>
+
+<td>Medication enclosed in a dissolvable shell.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>Solution</td>
+
+<td>Medication completely dissolved in liquid.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>Suspension</td>
+
+<td>Medication particles mixed in liquid and must usually be shaken.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>Cream/Ointment</td>
+
+<td>Medication applied to the skin.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>Patch</td>
+
+<td>Medication absorbed through the skin.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>Suppository</td>
+
+<td>Medication inserted into a body cavity.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>Inhaler</td>
+
+<td>Medication delivered through the respiratory system.</td>
+
+</tr>
+
+
+</table>
+
+
+</div>
